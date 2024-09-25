@@ -1,0 +1,324 @@
+* {
+    font-family: source-sans-pro, Spin-Cycle-OT ,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background: url("assets/headphones_hero_1.jpg") no-repeat;
+    background-size: 100% 100vh;
+    margin: 0;
+    padding: 0;
+}
+header a {
+    cursor: pointer;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+.logo{
+    width: 15rem;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.3rem;
+
+}
+.navbar a {
+    text-decoration: none;
+    color: lightgray;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+.navbar a:hover {
+    color: white;
+    transition: .5s;
+    transform: scale(1.1);
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+.hero div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.hero h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1rem;
+}
+.hero h2{
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 3rem;
+}
+.btn {
+    margin-bottom: 3rem;
+    color: white;
+    background-color: #FF6565;
+    border: 1px #FF6565 solid;
+    cursor: pointer;
+    padding: 1.5rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 2.5rem;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+}
+.btn:hover {
+    color: #FF6565;
+    background-color: white;
+    border: 1px #FF6565 solid;
+}
+.hero p {
+    width: 40rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+    margin: 3rem;
+}
+#what-we-do {
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+#what-we-do .whatwedo {
+    text-align: center;
+    display: flex;
+    width: 39.8125rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 5rem 0;
+}
+#what-we-do .whatwedo .head {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#what-we-do .whatwedo p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+#what-we-do .icons {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 10rem;
+}
+#what-we-do .icons div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 12.9rem;
+    height: 11.2rem;
+}
+#what-we-do .icons div p samp {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+}
+#what-we-do .icons div p {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1.5rem;
+}
+#our-results {
+    background-image: url("assets/headphones_hero_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+#our-results .ourresults {
+    text-align: center;
+    display: flex;
+    width: 39.8125rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 5rem 0;
+}
+#our-results .ourresults .head {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#our-results .ourresults p {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+#our-results .icons {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 8rem;
+}
+#our-results .icons div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 12.9rem;
+    height: 11.2rem;
+    background-image: url("assets/pentagone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#our-results .icons div p samp {
+    color: #FFF;
+    text-align: center;
+    font-size: 2.875rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+}
+#our-results .icons div p {
+    color: #FFF;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1.5rem;
+}
+#contact-us {
+    background-color: white;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#contact-us .contact-form {
+    width: 25rem;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#contact-us .contact-form p {
+    color: #071629;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+#contact-us .contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#contact-us .contact-form form input {
+    border: #FF6565 solid 1px;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 3rem;
+}
+#contact-us .contact-form form textarea {
+    border: #FF6565 solid 1px;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+#contact-us .contact-form form input::placeholder {
+    color: #071629;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#contact-us .contact-form form textarea::placeholder {
+     color: #071629;
+     text-align: left;
+     font-size: 1rem;
+     font-weight: 400;
+ }
+footer {
+    background-color: #071629;;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+footer div .foooter-icons {
+    height: 1.875rem;
+    display: flex;
+    justify-content: right;
+}
+footer div .foooter-icons a {
+    cursor: pointer;
+}
+footer p {
+    color: lightgray;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
