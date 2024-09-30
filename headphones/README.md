@@ -25,7 +25,6 @@ Open your terminal.
         git clone https://github.com/Youssef-Bouhssina/alx_html_css/tree/main/headphones
 
 ### Step 2: Open the Project
-* 
 * Open your preferred code editor (e.g., Visual Studio Code, Sublime Text).
 * Navigate to the cloned folder (alx_html_css).
 * Open the index.html file to view the website in your browser.
