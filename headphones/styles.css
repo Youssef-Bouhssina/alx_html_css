@@ -7,7 +7,7 @@
 }
 body{
     background: url("assets/headphones_hero_1.jpg") no-repeat;
-    background-size: 100% 100vh;
+    background-size: 100%;
     margin: 0;
     padding: 0;
 }
@@ -65,7 +65,6 @@ header{
 .hero h1 {
     text-align: center;
     font-size: 2rem;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin: 1rem;
@@ -115,6 +114,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 2rem;
+
 }
 #what-we-do .whatwedo {
     text-align: center;
@@ -271,7 +271,7 @@ header{
     height: 3rem;
 }
 #contact-us .contact-form form textarea {
-    border: #FF6565 solid 1px;
+    border: #000000 solid 1px;
     width: 100%;
     padding: 1rem;
     font-size: 1rem;
@@ -321,4 +321,64 @@ footer p {
     color: lightgray;
     font-size: 0.75rem;
     font-weight: 400;
+}
+@media (max-width: 1000px) {
+    body {}
+    .navbar {
+        font-size: 0.85rem;
+    }
+    .logo {
+        max-width: 80%;
+        height: auto;
+    }
+    .hero h1 {
+       font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .hero h2 {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    .btn {
+        margin-bottom: 3rem;
+        padding: 1.3rem 2.3rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    .hero p {
+        width: 35rem;
+        font-size: 0.8rem;
+        font-weight: 350;
+        line-height: 1.5rem;
+        margin: 3rem;
+    }
+    #what-we-do .whatwedo .head {
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    #what-we-do .whatwedo p {
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+    }
+}
+@media (max-width: 1300px) {
+    .hero div {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    @media (max-width: 1000px) {
+        .hero div {
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+}
+@media (max-width: 650px) {
+    .navbar {
+        font-size: 0.8rem;
+        display: none;
+    }
 }
